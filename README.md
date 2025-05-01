@@ -30,6 +30,6 @@ def goldbach(number):
             if isprime(p) and isprime(number-p): 
                 return p,number-p
             elif isprime(p+2) and isprime(number-(p+2) ):
-                return p+2,number-p+2
+                return p+2,number-(p+2)
         return 0,0
 ```
