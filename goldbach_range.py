@@ -26,7 +26,7 @@ def goldbach(number):
             if is_prime(p ) and is_prime(number-p ): 
                 return p,number-p
             elif is_prime(p+2) and is_prime(number-(p+2) ):
-                return p+2,number-p+2
+                return p+2,number-(p+2)
         return 0,0
 
 def check(N):
